@@ -1,6 +1,7 @@
 # Ignore target directory which contains build artifacts
 target/*
-
+.allure/
+.vscode/
 # Except the Allure report directory inside target
 !target/allure-report/
 !target/allure-results/
