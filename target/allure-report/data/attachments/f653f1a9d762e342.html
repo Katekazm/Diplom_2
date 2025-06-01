@@ -1,0 +1,28 @@
+<div>PATCH to https://stellarburgers.nomoreparties.site/api/auth/user</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;email&quot;: &quot;ad356d64-94bc-4551-8976-870172704aff@example.com&quot;,
+    &quot;password&quot;: &quot;0fd01cd8-ece4-4c7f-a308-9fb2c69da3d7&quot;,
+    &quot;name&quot;: &quot;Test User b1d1c&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X PATCH &#39;https://stellarburgers.nomoreparties.site/api/auth/user&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;email&quot;: &quot;ad356d64-94bc-4551-8976-870172704aff@example.com&quot;,
+    &quot;password&quot;: &quot;0fd01cd8-ece4-4c7f-a308-9fb2c69da3d7&quot;,
+    &quot;name&quot;: &quot;Test User b1d1c&quot;
+}&#39;
+</div>

@@ -1,0 +1,31 @@
+# Ignore target directory which contains build artifacts
+target/*
+.allure/
+.vscode/
+# Except the Allure report directory inside target
+!target/allure-report/
+!target/allure-results/
+
+# Maven specific ignores
+.mvn/wrapper/
+!*.war
+!*.ear
+!*.jar
+!*.nar
+!*.sar
+
+# IDE specific ignores (IntelliJ IDEA)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+.localized
+
+# Log files
+*.log
+
+# Temporary files
+*~ 
