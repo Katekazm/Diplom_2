@@ -4,6 +4,7 @@ target/*
 .vscode/
 # Except the Allure report directory inside target
 !target/allure-report/
+!target/allure-results/
 
 # Maven specific ignores
 .mvn/wrapper/
